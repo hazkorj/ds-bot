@@ -10,7 +10,7 @@ COPY . /app
 RUN npm install
 
 # Экспорт порта
-EXPOSE 8080
+EXPOSE 80
 
 # Define the entry point for the container
 CMD ["npm", "start"]
