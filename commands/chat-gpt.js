@@ -1,5 +1,5 @@
 const {Configuration, OpenAIApi} = require('openai');
-const commandData = require('../config.json').commandsData.chatGpt;
+const commandData = require('config.json').commandsData.chatGpt;
 
 const configuration = new Configuration({
     apiKey: process.env.OPENAI_TOKEN,
